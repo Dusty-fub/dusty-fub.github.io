@@ -27,67 +27,43 @@
     
     
     <meta property="og:title" content="How_to_start_blog_with_hugo" />
-<meta property="og:description" content="#如何用hugo搭建个人博客
- ##Create a New Site(新建一个&quot;Hugo site&rdquo;)
- hugo new site 你的github用户名.github.io-generator  上面这个操作会在当前目录新建一个名为“你的github用户名.github.io-generator”的文件夹，并在“你的github用户名.github.io-generator”文件夹中新建一个&quot;Hugo site&rdquo;。
-##Add a Theme(添加主题)
- cd 你的github用户名.github.io-generator git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke echo &#39;theme = &quot;ananke&quot;&#39; &gt;&gt; config.toml  上面这四个操作分别会进入刚才新建的文件夹、创建一个名为 .git 的子目录、下载ananke主题、配置主题为ananke。
-##Add Some Content(写博客内容)
- hugo new posts/my-first-post.md  上面这条命令会新建md博客文件，博客文件的位置是&rdquo;./content/posts&rdquo;。
+<meta property="og:description" content="如何用hugo搭建个人博客 下载hugo   下载地址
+  找到 hugo_xxx_Windows-64bit.zip 下载
+  解压,把 hugo.exe 所在的目录加到PATH中
+  重启终端，运行 hugo version 查看版本   Create a New Site(新建一个&quot;Hugo site&rdquo;)  hugo new site 你的github用户名.github.io-generator  上面这个操作会在当前目录新建一个名为“你的github用户名.github.io-generator”的文件夹，并在“你的github用户名.github.io-generator”文件夹中新建一个&quot;Hugo site&rdquo;。
+Add a Theme(添加主题)  cd 你的github用户名.github.io-generator git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke echo &#39;theme = &quot;ananke&quot;&#39; &gt;&gt; config.toml  上面这四个操作分别会进入刚才新建的文件夹、创建一个名为 .git 的子目录、下载ananke主题、配置主题为ananke。
+Add Some Content(写博客内容)  hugo new posts/my-first-post.md  上面这条命令会新建md博客文件，博客文件的位置是&rdquo;./content/posts&rdquo;。
 打开博客文件，然后就可以写博客了。
-draft(草稿)默认是true，写完博客后要改成false。
-##Start the Hugo server(启动Hugo服务器)
- hugo server -D  复制网址，就可以在浏览器中打开了。如果按了“ctrl&#43;c”将会关闭服务器。
-##github
-###修改config.toml文件
-可以使用vscode打开：
- code config.toml  baseURL原来的样子： 将baseURL修改为你的github主页，即“https://你的github名.github.io/&quot;。
-比如： 如果你已经购买了域名，应该将baseURL修改为你自己的域名。" />
+draft(草稿)默认是true，写完博客后要改成false。" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://hardduypii.xyz/posts/how_to_start_blog_with_hugo/" />
 <meta property="article:published_time" content="2020-06-15T17:58:32+08:00" />
 <meta property="article:modified_time" content="2020-06-15T17:58:32+08:00" />
 <meta itemprop="name" content="How_to_start_blog_with_hugo">
-<meta itemprop="description" content="#如何用hugo搭建个人博客
- ##Create a New Site(新建一个&quot;Hugo site&rdquo;)
- hugo new site 你的github用户名.github.io-generator  上面这个操作会在当前目录新建一个名为“你的github用户名.github.io-generator”的文件夹，并在“你的github用户名.github.io-generator”文件夹中新建一个&quot;Hugo site&rdquo;。
-##Add a Theme(添加主题)
- cd 你的github用户名.github.io-generator git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke echo &#39;theme = &quot;ananke&quot;&#39; &gt;&gt; config.toml  上面这四个操作分别会进入刚才新建的文件夹、创建一个名为 .git 的子目录、下载ananke主题、配置主题为ananke。
-##Add Some Content(写博客内容)
- hugo new posts/my-first-post.md  上面这条命令会新建md博客文件，博客文件的位置是&rdquo;./content/posts&rdquo;。
+<meta itemprop="description" content="如何用hugo搭建个人博客 下载hugo   下载地址
+  找到 hugo_xxx_Windows-64bit.zip 下载
+  解压,把 hugo.exe 所在的目录加到PATH中
+  重启终端，运行 hugo version 查看版本   Create a New Site(新建一个&quot;Hugo site&rdquo;)  hugo new site 你的github用户名.github.io-generator  上面这个操作会在当前目录新建一个名为“你的github用户名.github.io-generator”的文件夹，并在“你的github用户名.github.io-generator”文件夹中新建一个&quot;Hugo site&rdquo;。
+Add a Theme(添加主题)  cd 你的github用户名.github.io-generator git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke echo &#39;theme = &quot;ananke&quot;&#39; &gt;&gt; config.toml  上面这四个操作分别会进入刚才新建的文件夹、创建一个名为 .git 的子目录、下载ananke主题、配置主题为ananke。
+Add Some Content(写博客内容)  hugo new posts/my-first-post.md  上面这条命令会新建md博客文件，博客文件的位置是&rdquo;./content/posts&rdquo;。
 打开博客文件，然后就可以写博客了。
-draft(草稿)默认是true，写完博客后要改成false。
-##Start the Hugo server(启动Hugo服务器)
- hugo server -D  复制网址，就可以在浏览器中打开了。如果按了“ctrl&#43;c”将会关闭服务器。
-##github
-###修改config.toml文件
-可以使用vscode打开：
- code config.toml  baseURL原来的样子： 将baseURL修改为你的github主页，即“https://你的github名.github.io/&quot;。
-比如： 如果你已经购买了域名，应该将baseURL修改为你自己的域名。">
+draft(草稿)默认是true，写完博客后要改成false。">
 <meta itemprop="datePublished" content="2020-06-15T17:58:32&#43;08:00" />
 <meta itemprop="dateModified" content="2020-06-15T17:58:32&#43;08:00" />
-<meta itemprop="wordCount" content="92">
+<meta itemprop="wordCount" content="131">
 
 
 
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="How_to_start_blog_with_hugo"/>
-<meta name="twitter:description" content="#如何用hugo搭建个人博客
- ##Create a New Site(新建一个&quot;Hugo site&rdquo;)
- hugo new site 你的github用户名.github.io-generator  上面这个操作会在当前目录新建一个名为“你的github用户名.github.io-generator”的文件夹，并在“你的github用户名.github.io-generator”文件夹中新建一个&quot;Hugo site&rdquo;。
-##Add a Theme(添加主题)
- cd 你的github用户名.github.io-generator git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke echo &#39;theme = &quot;ananke&quot;&#39; &gt;&gt; config.toml  上面这四个操作分别会进入刚才新建的文件夹、创建一个名为 .git 的子目录、下载ananke主题、配置主题为ananke。
-##Add Some Content(写博客内容)
- hugo new posts/my-first-post.md  上面这条命令会新建md博客文件，博客文件的位置是&rdquo;./content/posts&rdquo;。
+<meta name="twitter:description" content="如何用hugo搭建个人博客 下载hugo   下载地址
+  找到 hugo_xxx_Windows-64bit.zip 下载
+  解压,把 hugo.exe 所在的目录加到PATH中
+  重启终端，运行 hugo version 查看版本   Create a New Site(新建一个&quot;Hugo site&rdquo;)  hugo new site 你的github用户名.github.io-generator  上面这个操作会在当前目录新建一个名为“你的github用户名.github.io-generator”的文件夹，并在“你的github用户名.github.io-generator”文件夹中新建一个&quot;Hugo site&rdquo;。
+Add a Theme(添加主题)  cd 你的github用户名.github.io-generator git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke echo &#39;theme = &quot;ananke&quot;&#39; &gt;&gt; config.toml  上面这四个操作分别会进入刚才新建的文件夹、创建一个名为 .git 的子目录、下载ananke主题、配置主题为ananke。
+Add Some Content(写博客内容)  hugo new posts/my-first-post.md  上面这条命令会新建md博客文件，博客文件的位置是&rdquo;./content/posts&rdquo;。
 打开博客文件，然后就可以写博客了。
-draft(草稿)默认是true，写完博客后要改成false。
-##Start the Hugo server(启动Hugo服务器)
- hugo server -D  复制网址，就可以在浏览器中打开了。如果按了“ctrl&#43;c”将会关闭服务器。
-##github
-###修改config.toml文件
-可以使用vscode打开：
- code config.toml  baseURL原来的样子： 将baseURL修改为你的github主页，即“https://你的github名.github.io/&quot;。
-比如： 如果你已经购买了域名，应该将baseURL修改为你自己的域名。"/>
+draft(草稿)默认是true，写完博客后要改成false。"/>
 
 	
   </head>
@@ -183,14 +159,29 @@ draft(草稿)默认是true，写完博客后要改成false。
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>#如何用hugo搭建个人博客</p>
-<h2 id="heading"></h2>
-<p>##Create a New Site(新建一个&quot;Hugo site&rdquo;)</p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h1 id="如何用hugo搭建个人博客">如何用hugo搭建个人博客</h1>
+<h2 id="下载hugo">下载hugo</h2>
+<ol>
+<li>
+<p><a href="https://github.com/gohugoio/hugo/releases">下载地址</a></p>
+</li>
+<li>
+<p>找到 hugo_xxx_Windows-64bit.zip 下载</p>
+</li>
+<li>
+<p>解压,把 hugo.exe 所在的目录加到PATH中</p>
+</li>
+<li>
+<p>重启终端，运行 hugo version 查看版本
+<img src="/images/%E6%9F%A5%E7%9C%8Bhugo%E7%89%88%E6%9C%AC.png" alt=""></p>
+</li>
+</ol>
+<h2 id="create-a-new-site新建一个hugo-site">Create a New Site(新建一个&quot;Hugo site&rdquo;)</h2>
 <pre><code>    hugo new site 你的github用户名.github.io-generator
 </code></pre>
 <p>上面这个操作会在当前目录新建一个名为“你的github用户名.github.io-generator”的文件夹，并在“你的github用户名.github.io-generator”文件夹中新建一个&quot;Hugo site&rdquo;。</p>
 <p><img src="https://i.loli.net/2020/06/15/QvbmlY2wAJZBe6g.png" alt="新建hugo site.png"></p>
-<p>##Add a Theme(添加主题)</p>
+<h2 id="add-a-theme添加主题">Add a Theme(添加主题)</h2>
 <pre><code>    cd 你的github用户名.github.io-generator
     
     git init
@@ -204,7 +195,7 @@ draft(草稿)默认是true，写完博客后要改成false。
 <p><img src="https://i.loli.net/2020/06/15/G4avw9s1RtyxIYK.png" alt="public目录git init.png"></p>
 <p><img src="https://i.loli.net/2020/06/15/WmUVLl7B9aYPj5p.png" alt="下载ananke主题.png"></p>
 <p><img src="https://i.loli.net/2020/06/15/MIcXyDPKEVqZ8zQ.png" alt="设置主题为ananke.png"></p>
-<p>##Add Some Content(写博客内容)</p>
+<h2 id="add-some-content写博客内容">Add Some Content(写博客内容)</h2>
 <pre><code>    hugo new posts/my-first-post.md
 </code></pre>
 <p>上面这条命令会新建md博客文件，博客文件的位置是&rdquo;./content/posts&rdquo;。</p>
@@ -212,13 +203,13 @@ draft(草稿)默认是true，写完博客后要改成false。
 <p>打开博客文件，然后就可以写博客了。</p>
 <p><img src="https://i.loli.net/2020/06/15/TrCR2dAuiNbm3Bz.png" alt="写博客_修改draft.png"></p>
 <p>draft(草稿)默认是true，写完博客后要改成false。</p>
-<p>##Start the Hugo server(启动Hugo服务器)</p>
+<h2 id="start-the-hugo-server启动hugo服务器">Start the Hugo server(启动Hugo服务器)</h2>
 <pre><code>    hugo server -D
 </code></pre>
 <p><img src="https://i.loli.net/2020/06/15/CfeGqdVJSwUhD3L.png" alt="启动本地服务.png"></p>
 <p>复制网址，就可以在浏览器中打开了。如果按了“ctrl+c”将会关闭服务器。</p>
-<p>##github</p>
-<p>###修改config.toml文件</p>
+<h2 id="上传到github">上传到github</h2>
+<h3 id="修改configtoml文件">修改config.toml文件</h3>
 <p>可以使用vscode打开：</p>
 <pre><code>    code config.toml
 </code></pre>
@@ -229,16 +220,16 @@ baseURL原来的样子：
 <p>比如：
 <img src="https://i.loli.net/2020/06/15/5vsIlWZU1MJSE4j.png" alt="baseurl修改后的样子.png"></p>
 <p>如果你已经购买了域名，应该将baseURL修改为你自己的域名。</p>
-<p>###Build static pages</p>
+<h3 id="build-static-pages">Build static pages</h3>
 <pre><code>    hugo -D
 </code></pre>
 <p>上面这个命令会在目录创建一个public文件夹。</p>
 <p><img src="https://i.loli.net/2020/06/15/oyRcO7bFxP2qkSU.png" alt="生成public文件夹.png"></p>
-<p>###.gitignore</p>
+<h3 id="创建-gitignore-文件">创建 .gitignore 文件</h3>
 <p><img src="/images/%E5%88%9B%E5%BB%BA%E5%B9%B6%E6%89%93%E5%BC%80.gitignore%E6%96%87%E4%BB%B6.png" alt=""></p>
 <p><img src="https://i.loli.net/2020/06/15/RTv8LD2dSNIz3uQ.png" alt="忽略public文件夹.png"></p>
 <p><img src="https://i.loli.net/2020/06/15/QDqzx8KFHoGSf41.png" alt="已经成功忽略了public文件夹.png"></p>
-<p>###public仓库</p>
+<h3 id="创建public本地仓库">创建public本地仓库</h3>
 <p>进入这个public目录</p>
 <pre><code>    cd public
 </code></pre>
@@ -252,21 +243,50 @@ baseURL原来的样子：
     git commit -m 第一次部署
 </code></pre>
 <p><img src="https://i.loli.net/2020/06/15/e3Q49SRidTHjL1p.png" alt="git config &ndash;global core.autocrlf false.png"></p>
+<h3 id="在github上新建仓库">在github上新建仓库</h3>
 <p><img src="https://i.loli.net/2020/06/15/k6H2Zgv7CdBuNxY.png" alt="github上新建仓库.png">
 仓库名只能设置为 你的github用户名.github.io
 用户名如果有大写字母改成小写</p>
 <p>填写完成后点击“Create repository&rdquo;。</p>
+<h3 id="上传">上传</h3>
 <p><img src="https://i.loli.net/2020/06/15/sLDKJ6BlvguUHx2.png" alt="点击ssh.png"></p>
 <p><img src="https://i.loli.net/2020/06/15/MCrv5w9Bbkx4DiK.png" alt="复制第一行代码.png"></p>
 <p><img src="https://i.loli.net/2020/06/15/fjo3q2JsNPpxvUA.png" alt="粘贴第一行代码.png"></p>
 <p><img src="https://i.loli.net/2020/06/15/6sfz8U132Cgqkm5.png" alt="复制第二行代码.png"></p>
 <p><img src="https://i.loli.net/2020/06/15/96AihzSk5lHRLvV.png" alt="粘贴第二行代码.png"></p>
-<p>然后刷新页面
+<h3 id="查看结果">查看结果</h3>
+<p>刷新页面
 <img src="https://i.loli.net/2020/06/15/6sdHRW7fc3tjlQJ.png" alt="刷新页面.png"></p>
 <p>点击settings
 <img src="/images/%E7%82%B9%E5%87%BBsetting.png" alt=""></p>
-<p>点击链接，就可以看到页面了。
+<p>找到链接，点击，就可以看到页面了。
 <img src="https://i.loli.net/2020/06/15/m4lB9wCZqLodcHr.png" alt="点击链接.png"></p>
+<h2 id="创建第二篇博客">创建第二篇博客</h2>
+<h3 id="新建第二篇博客md文件">新建第二篇博客md文件</h3>
+<pre><code>    hugo new posts/第二篇博客.md
+</code></pre>
+<h3 id="编辑博客文件">编辑博客文件</h3>
+<pre><code>    code /content/posts/第二篇博客.md
+</code></pre>
+<h3 id="更新public文件夹">更新public文件夹</h3>
+<pre><code>    hugo -D
+</code></pre>
+<h3 id="更新上传">更新上传</h3>
+<ol>
+<li>
+<p>进入目录</p>
+<pre><code> cd public
+</code></pre>
+</li>
+<li>
+<pre><code> git commit -m commit注释
+</code></pre>
+</li>
+<li>
+<pre><code> git push -f
+</code></pre>
+</li>
+</ol>
 <ul class="pa0">
   
 </ul>

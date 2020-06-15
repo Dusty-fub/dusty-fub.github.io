@@ -132,22 +132,14 @@
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          #如何用hugo搭建个人博客
- ##Create a New Site(新建一个&quot;Hugo site&rdquo;)
- hugo new site 你的github用户名.github.io-generator  上面这个操作会在当前目录新建一个名为“你的github用户名.github.io-generator”的文件夹，并在“你的github用户名.github.io-generator”文件夹中新建一个&quot;Hugo site&rdquo;。
-##Add a Theme(添加主题)
- cd 你的github用户名.github.io-generator git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke echo 'theme = &quot;ananke&quot;' &gt;&gt; config.toml  上面这四个操作分别会进入刚才新建的文件夹、创建一个名为 .git 的子目录、下载ananke主题、配置主题为ananke。
-##Add Some Content(写博客内容)
- hugo new posts/my-first-post.md  上面这条命令会新建md博客文件，博客文件的位置是&rdquo;./content/posts&rdquo;。
+          如何用hugo搭建个人博客 下载hugo   下载地址
+  找到 hugo_xxx_Windows-64bit.zip 下载
+  解压,把 hugo.exe 所在的目录加到PATH中
+  重启终端，运行 hugo version 查看版本   Create a New Site(新建一个&quot;Hugo site&rdquo;)  hugo new site 你的github用户名.github.io-generator  上面这个操作会在当前目录新建一个名为“你的github用户名.github.io-generator”的文件夹，并在“你的github用户名.github.io-generator”文件夹中新建一个&quot;Hugo site&rdquo;。
+Add a Theme(添加主题)  cd 你的github用户名.github.io-generator git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke echo 'theme = &quot;ananke&quot;' &gt;&gt; config.toml  上面这四个操作分别会进入刚才新建的文件夹、创建一个名为 .git 的子目录、下载ananke主题、配置主题为ananke。
+Add Some Content(写博客内容)  hugo new posts/my-first-post.md  上面这条命令会新建md博客文件，博客文件的位置是&rdquo;./content/posts&rdquo;。
 打开博客文件，然后就可以写博客了。
 draft(草稿)默认是true，写完博客后要改成false。
-##Start the Hugo server(启动Hugo服务器)
- hugo server -D  复制网址，就可以在浏览器中打开了。如果按了“ctrl+c”将会关闭服务器。
-##github
-###修改config.toml文件
-可以使用vscode打开：
- code config.toml  baseURL原来的样子： 将baseURL修改为你的github主页，即“https://你的github名.github.io/&quot;。
-比如： 如果你已经购买了域名，应该将baseURL修改为你自己的域名。
         </div>
           <a href="http://hardduypii.xyz/posts/how_to_start_blog_with_hugo/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
