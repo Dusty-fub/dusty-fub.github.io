@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>http://hardduypii.xyz/posts/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Jun 2020 17:58:32 +0800</lastBuildDate>
+    
+	<atom:link href="http://hardduypii.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How_to_start_blog_with_hugo</title>
+      <link>http://hardduypii.xyz/posts/how_to_start_blog_with_hugo/</link>
+      <pubDate>Mon, 15 Jun 2020 17:58:32 +0800</pubDate>
+      
+      <guid>http://hardduypii.xyz/posts/how_to_start_blog_with_hugo/</guid>
+      <description>#如何用hugo搭建个人博客
+……</description>
+    </item>
+    
+  </channel>
+</rss>
